@@ -1,0 +1,13 @@
+operator load(C,P,A)
+pre: at(C,A), at(P,A), plane(P), airport(A)
+post: ~at(C,A), in(C,P)
+
+operator unload(C,P,A)
+pre: in(C,P), at(P,A), plane(P), cargo(C), airport(A)
+post: at(C,A), ~in(C,P)
+
+operator fly(P,O,D)
+pre: plane(P), airport(O), airport(D), at(P,O)
+post: ~at(P,O), at(P,D)
+
+

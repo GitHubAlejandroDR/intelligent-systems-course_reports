@@ -1,0 +1,16 @@
+start(
+at(c1,sfo),
+at(c2,jfk),
+at(p1,sfo),
+at(p2,jfk),
+cargo(c1),
+cargo(c2),
+plane(p1),
+plane(p2),
+airport(sfo),
+airport(jfk),
+)
+goal(
+at(c1,jfk),
+at(c2,sfo),
+)

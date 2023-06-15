@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+NumberOfClusters--IncorrectlyClusteredInstances--SumOfSquaredErrors--NumberOfIterations--
+EuclideanDistance 
+20--84/58.333%--24804.83945389218--7
+14--95/65.9722%--27175.21250580933--8
+Manhattan
+14--92.0/63.8889%--156931.09686444624--11
+2--112.0/77.7778 %--198782.66859919275--6
+20--84.0/58.3333 %--144231.10152121756--7

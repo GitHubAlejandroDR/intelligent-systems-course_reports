@@ -1,0 +1,58 @@
+% This database contains 5 attributes (which have been extracted from
+% a larger set of 75)       
+%   
+% 
+% 
+% Attribute Information:
+% ------------------------
+       
+%       -- 3. chest pain type  (4 values)            
+%       -- 6. fasting blood sugar > 120 mg/dl       
+%       -- 7. resting electrocardiographic results  (values 0,1,2) 
+%       -- 8. maximum heart rate achieved  
+   
+   
+% 
+% Attributes types
+% -----------------
+% 
+% Real: 8
+% Binary: 6
+% Nominal:7,3
+% 
+% Variable to be predicted
+% ------------------------
+% Absence (1) or presence (2) of heart disease
+% 
+% 
+% No missing values.
+% 
+% 9 observations
+
+% Relabeled values in attribute class
+%    From: 1                       To: absent              
+%    From: 2                       To: present             
+%
+@relation heart-statlog
+
+@attribute chest real [0 4]
+@attribute fasting_blood_sugar real [0 1]
+@attribute resting_electrocardiographic_results real [0 2]
+@attribute maximum_heart_rate_achieved real [0 4]
+@attribute class { absent, present}
+@data
+4,0,2,0,present
+3,0,2,4,absent
+2,0,0,3,present
+4,0,0,0,absent
+2,0,2,2,absent
+4,0,0,4,absent
+3,1,2,4,present
+4,0,2,4,present
+4,0,2,4,present
+1,1,2,0,absent
+0,1,0,4,present
+2,0,1,2,absent
+2,1,2,3,present
+3,1,2,2,present
+4,1,0,4,present
